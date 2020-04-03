@@ -1,0 +1,10 @@
+Open-GApps users: Use nano variant or lower. Higher variants (currently micro only) compatibility aren't guaranteed.
+
+Clean flash required if you're coming from Jigen's unofficial build!
+
+1 April 2020:
+- Initial build based on zeelog's trees
+- user build type
+- Qualcomm aptX (HD) support removed (unlicensed)
+- Ships with VNDK enabled but runtime disabled (aka Lite VNDK)
+- Camera and Dirac blobs updated from V11.0.2.0.NCFMIXM
