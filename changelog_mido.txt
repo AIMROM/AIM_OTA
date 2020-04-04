@@ -1,6 +1,8 @@
 Open-GApps users: Use nano variant or lower. Higher variants (currently micro only) compatibility aren't guaranteed.
 
-Clean flash required if you're coming from Jigen's unofficial build!
+4 April 2020:
+- ROM source sync:
+  - Fixed vibration authentication toggles
 
 1 April 2020:
 - Initial build based on zeelog's device and vendor trees
