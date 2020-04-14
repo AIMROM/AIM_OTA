@@ -1,5 +1,20 @@
 Open-GApps users: Use nano variant or lower. Higher variants (currently micro only) compatibility aren't guaranteed.
 
+13 April 2020:
+- ROM source sync:
+  - Merged April security patch
+  - Added Smart Charging
+  - Added QS headers
+  - Added QS panel opacity
+  - Added blur behind QS panel
+  - Added navigation mode settings
+  - Added more lock screen charging animations
+  - Allow to hide SB on lock screen
+  - Added Face Unlock
+  - Added running services and user icons QS footer toggles
+  - Misc UI changes
+- Disabled qcom_rx_wakelock on WLAN driver
+
 4 April 2020:
 - ROM source sync:
   - Fixed vibration authentication toggles
