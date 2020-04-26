@@ -2,7 +2,7 @@ Open-GApps users: Use nano variant or lower. Higher variants (currently micro on
 You might want GApps variant instead if you need more Google bloats (?).
 
 26 April 2020:
-- AIMROM V4.1:
+- AIMROM V4.1 (clean flash recommended):
   - Added GApps build variants (non-GApps are codenamed Lucid)
   - Nuked Face Unlock (copyright issues)
   - Reworked and more ambient edge pulse customizations
