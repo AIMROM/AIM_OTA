@@ -6,6 +6,7 @@ Open-GApps users: Use nano variant or lower. Higher variants (currently micro on
   - Fixed OPScreenRecord on signed builds
   - Included Gboard, Google Calendar/Dialer/Sounds for GApps build
   - Fixed standalone microG UnifiedNlp support
+  - Added SELinux status indicator in About device
 - Initial build with msm-4.9 kernel
 - Shipped with the so-called mini package (no Chrome, Google TTS, Google Search, Talkback and US offline speech files)
 - Merged ZeeLog's device and vendor changes up to 19 April 2020 UTC
