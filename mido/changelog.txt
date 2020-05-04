@@ -1,5 +1,24 @@
 Open-GApps users: Use nano variant or lower. Higher variants (currently micro only) compatibility aren't guaranteed.
-You might want GApps variant instead if you need more Google bloats (?).
+
+4 May 2020 (CLEAN FLASH + COMPATIBLE TWRP BUILD REQUIRED):
+[ Compatible TWRP build: https://t.me/KudProject/623 ]
+- AIM source sync:
+  - Fixed OPScreenRecord on signed builds
+  - Included Gboard, Google Calendar/Dialer/Sounds for GApps build
+  - Fixed standalone microG UnifiedNlp support
+- Initial build with msm-4.9 kernel
+- Shipped with the so-called mini package (no Chrome, Google TTS, Google Search, Talkback and US offline speech files)
+- Merged ZeeLog's device and vendor changes up to 19 April 2020 UTC
+- Dropped Dirac support (doesn't work)
+
+= Current issues =
+- IR blaster doesn't work
+- Reboot to recovery/bootloader doesn't work (will either freeze or just rebooting back to system)
+- Camera is reported to be not so stable (?)
+- Bootanimation freezes until boot completes and requires manual intervention to make bootanimation finishes (currently searching for possible upstream kernel culprit)
+- The included kernel has broken DT2W and KeyDisabler procfs symlink that has been fixed on next CI build made after this (https://t.me/KudProjectCI/377)
+
+Credits for the bringup (in raw text): https://kudnet.id/~raw/mido-4.9
 
 26 April 2020:
 - AIMROM V4.1 (clean flash recommended):
@@ -20,7 +39,7 @@ You might want GApps variant instead if you need more Google bloats (?).
   - Merged CAF LA.UM.8.6.r1-04200-89xx.0
   - Merged AOSP ASB-2020-04-05_3.18
 
-13 April 2020:
+13 April 2020 (pulled off):
 - ROM source sync:
   - Merged April security patch
   - Added Smart Charging
@@ -34,7 +53,3 @@ You might want GApps variant instead if you need more Google bloats (?).
   - Added running services and user icons QS footer toggles
   - Misc UI changes
 - Disabled qcom_rx_wakelock on WLAN driver
-
-4 April 2020:
-- ROM source sync:
-  - Fixed vibration authentication toggles
