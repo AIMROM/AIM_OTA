@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
     <RomName>AIMROM</RomName>
-    <VersionName>AIM-System-V2.5-20200408-OFFICIAL-scale-FINAL</VersionName>
-    <VersionNumber type="integer">20200408</VersionNumber>
-    <DirectUrl><![CDATA[https://downloads.sourceforge.net/project/aimroms/scale/AIM-System-V2.5-20200408-OFFICIAL-scale-FINAL.zip]]></DirectUrl>
+    <VersionName>AIM-System-V2.5-20200512-OFFICIAL-scale-FINAL</VersionName>
+    <VersionNumber type="integer">20200512</VersionNumber>
+    <DirectUrl><![CDATA[https://liquidtelecom.dl.sourceforge.net/project/aimroms/scale/AIM-System-V2.5-20200512-OFFICIAL-scale-FINAL.zip]]></DirectUrl>
     <HttpUrl><![CDATA[https://sourceforge.net/projects/aimroms/files/scale/]]></HttpUrl>
     <Android>7.1.2</Android>
-    <CheckMD5>361199142a4823018be625e83b80448d</CheckMD5>
-    <FileSize type="integer">408574117</FileSize>
+    <CheckMD5>bf58bab03968f78e16e2a97735e77b7c</CheckMD5>
+    <FileSize type="integer">412525331</FileSize>
     <Developer><![CDATA[Albert I (krasCGQ)]]></Developer>
     <WebsiteURL><![CDATA[]]></WebsiteURL>
     <DonateURL><![CDATA[https://paypal.me/AIMroms]]></DonateURL>
     <Changelog><![CDATA[### Let's AIM-ify
 
-* Merged March 2020 ASB in ROM
-* Updated blobs from picmt
-* Upstreamed kernel to LA.BR.1.2.9.c26-00600-8x09.0 with Linux 3.10.108 (EOL)
-* Upstreamed prima to LA.BR.1.3.7.c25-07400-8976.0
+* Merged April 2020 ASB in ROM
+* Used -O3 optimizations and LZO compression on kernel
+* Upstreamed prima to LA.BR.1.3.7.c25-08800-8976.0
 
 ### Currently known issues
 
