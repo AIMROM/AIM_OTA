@@ -1,0 +1,23 @@
+24th MAY Changes:
+1. May Security Patch with latest Los changes 
+2. Updated GApps Package
+3. HeadsUp - Snooze, Timeout, Blacklist/Stoplist added
+Raphael Specific Changes :
+4. Latest FOD changes to improve FOD 
+5. Brightness slider flicker fixed
+6. Allow all apps to use smart replies
+7. Added various Display modes
+8. AOD improved - state doze support
+9. Disabled Screen Attention
+10. Added dynamic thermal profile implementation
+11. Added assertions on trustzone and vendor versions
+(now u need latest supported vendor to be flashed prior to ROM flash, else it will error)
+12. Added leave space for FOD while bouncer is requesting Pattern on PIN  
+13. Added Latest Los device side changes 
+
+Note:
+1. SysUI Restart is required for ScreenOffFOD to turn ON/OFF of it..
+AOD options, Notifications wont be seen on screen when SOF is ON as its meant to work that way
+2. SELinux Status is Enforcing, 
+but as Android 10 stopped support to show in About section -it will show permissive..
+use Trust inbuilt app or any 3rd party app to check status... 
