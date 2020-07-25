@@ -2,6 +2,27 @@ Open-GApps users: Use nano variant or lower. Higher variants (currently micro on
 
 4 May 2020 and newer builds are using 4.9 kernel. Clean flash and a compatible recovery build required!
 
+25 July 2020:
+- AIM source sync:
+  - Merged ASB-2020-07-05
+  - Merged LineageOS changes
+- Merged (well, actually rebased) ZeeLog device and vendor changes up 11 July 2020 (UTC+8)
+- Updated audio, display and media HALs to LA.UM.8.6.r1-04400-89xx.0 to match current blobs
+- Enabled VoLTE support for Telkomsel (Indonesia)
+- Updated thermal engine configuration to reduce logspam
+- Updated Dalvik memory heap configuration from AOSP
+- FPS Info tile is now available
+- MoeSyndrome Kernel (Vanilla) updated to 4.9.231~ms1 at g4274ec5a8290:
+  - Merged Linux 4.9.231
+  - Merged CAF LA.UM.8.6.2.r1-07800-89xx.0
+  - WireGuard kernel module updated to v1.0.20200712
+  - Tuned build for Cortex-A53 and -O3 optimizations
+  - Charging thermal sensor is now back!
+  - Disabled kernel NTFS support
+  - Fixed panic with BFQ tunables by not exposing the (shouldn't be editable) weight values
+  - Silenced certain dmesg logspam
+  - Don't use SCHED_FIFO for eMMC
+
 11 June 2020:
 - AIM source sync:
   - Merged ASB-2020-06-05
@@ -27,16 +48,5 @@ Open-GApps users: Use nano variant or lower. Higher variants (currently micro on
 
 = Remaining issues =
 - IR blaster doesn't work
-
-4 May 2020:
-- AIM source sync:
-  - Fixed OPScreenRecord on signed builds
-  - Included Gboard, Google Calendar/Dialer/Sounds for GApps build
-  - Fixed standalone microG UnifiedNlp support
-  - Added SELinux status indicator in About device
-- Initial build with msm-4.9 kernel
-- Shipped with the so-called mini package (no Chrome, Google TTS, Google Search, Talkback and US offline speech files)
-- Merged ZeeLog's device and vendor changes up to 19 April 2020 UTC
-- Dropped Dirac support (doesn't work)
 
 Credits for the bringup (in raw text): https://kudnet.id/~raw/mido-4.9
