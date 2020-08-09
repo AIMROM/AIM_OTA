@@ -4,7 +4,7 @@ Open-GApps users: Use nano variant or lower. Higher variants (currently micro on
 
 9 August 2020:
 - AIM source sync:
-  - Merged ASB-2020-07-05
+  - Merged ASB-2020-08-05
   - Merged LineageOS changes
 - user build type
 - SELinux is now enforcing
