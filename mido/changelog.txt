@@ -2,6 +2,18 @@ Open-GApps users: Use nano variant or lower. Higher variants (currently micro on
 
 4 May 2020 and newer builds are using 4.9 kernel. Clean flash and a compatible recovery build required!
 
+9 August 2020:
+- AIM source sync:
+  - Merged ASB-2020-07-05
+  - Merged LineageOS changes
+- user build type
+- SELinux is now enforcing
+- MoeSyndrome Kernel (Vanilla) updated to 4.9.232~ms1 at gc0ea3a3d38dc:
+  - Merged Linux 4.9.232
+  - Merged CAF LA.UM.8.6.2.r1-08100-89xx.0
+  - Pulled a number of patches from Moto Razr 2020 kernel
+  - Enabled userpace CNTVCT_EL0 access for vDSO
+
 25 July 2020:
 - AIM source sync:
   - Merged ASB-2020-07-05
@@ -34,17 +46,6 @@ Open-GApps users: Use nano variant or lower. Higher variants (currently micro on
   - Merged Linux 4.9.226
   - WireGuard kernel module v1.0.20200520 built-in
   - Disabled software PAN emulation
-
-20 May 2020:
-- AIM source sync:
-  - Merged ASB-2020-05-05
-  - Merged LineageOS changes
-- BFQ I/O scheduler is now the default, both ROM and kernel side
-- MoeSyndrome Kernel (Vanilla) updated to revision ge57f100917ab:
-  - Merged Linux 4.9.223
-  - Fixed (workarounded) all remaining issues in kernel
-  - Enabled block I/O scheduler support for Cgroups
-  - Should have improved rear camera stability
 
 = Remaining issues =
 - IR blaster doesn't work
