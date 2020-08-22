@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+    <RomName>AIMROM</RomName>
+    <VersionName>AIM-System-V2.5-20200822-OFFICIAL-ja3gxx-FINAL</VersionName>
+    <VersionNumber type="integer">20200822</VersionNumber>
+    <DirectUrl><![CDATA[https://downloads.sourceforge.net/project/aimroms/ja3gxx/AIM-System-V2.5-20200822-OFFICIAL-ja3gxx-FINAL.zip]]></DirectUrl>
+    <HttpUrl><![CDATA[https://sourceforge.net/projects/aimroms/files/ja3gxx/]]></HttpUrl>
+    <Android>7.1.2</Android>
+    <CheckMD5>54a7d598fef583a51a9dec41c59b62d2</CheckMD5>
+    <FileSize type="integer">342790443</FileSize>
+    <Developer><![CDATA[Albert I (krasCGQ)]]></Developer>
+    <WebsiteURL><![CDATA[]]></WebsiteURL>
+    <DonateURL><![CDATA[https://paypal.me/AIMroms]]></DonateURL>
+    <Changelog><![CDATA[### Let's AIM-ify
+
+### Disclaimer
+
+Unlike most of my builds which are fully odexed, all builds for this device are fully deodexed instead due to unknown segfault occured as soon as internet connection is successfully established leading to soft reboots.
+
+### Known issues
+
+Since this build is based on the now abandoned exynos5410 sources, issues do apply here as well.
+
+---
+
+### Note:
+
+_Clean flash is recommended. Bug reports are not appreciated  without a proper evidences such as logcat screenshots etc.
+Builds will be available soon when maintainers will get free time. So don't ask for ETAs._]]></Changelog>
+</ROM>

@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
     <RomName>AIMROM</RomName>
-    <VersionName>AIM-System-V2.5-20200514-OFFICIAL-scale-FINAL</VersionName>
-    <VersionNumber type="integer">20200514</VersionNumber>
-    <DirectUrl><![CDATA[https://downloads.sourceforge.net/project/aimroms/scale/AIM-System-V2.5-20200514-OFFICIAL-scale-FINAL.zip]]></DirectUrl>
+    <VersionName>AIM-System-V2.5-20200822-OFFICIAL-scale-FINAL</VersionName>
+    <VersionNumber type="integer">20200822</VersionNumber>
+    <DirectUrl><![CDATA[https://downloads.sourceforge.net/project/aimroms/scale/AIM-System-V2.5-20200822-OFFICIAL-scale-FINAL.zip]]></DirectUrl>
     <HttpUrl><![CDATA[https://sourceforge.net/projects/aimroms/files/scale/]]></HttpUrl>
     <Android>7.1.2</Android>
-    <CheckMD5>35d72fa6767262cad0fb854129e6c227</CheckMD5>
-    <FileSize type="integer">412525726</FileSize>
+    <CheckMD5>f4182707ca6152e510d6cb10b2a5d8e3</CheckMD5>
+    <FileSize type="integer">414190318</FileSize>
     <Developer><![CDATA[Albert I (krasCGQ)]]></Developer>
     <WebsiteURL><![CDATA[]]></WebsiteURL>
     <DonateURL><![CDATA[https://paypal.me/AIMroms]]></DonateURL>
     <Changelog><![CDATA[### Let's AIM-ify
 
-* Merged April 2020 ASB in ROM
-* Used -O3 optimizations and LZO compression on kernel
-* Upstreamed prima to LA.BR.1.3.7.c25-08800-8976.0
+* Merged August 2020 ASB in ROM
+* ROM zip is now signed
 
 ### Currently known issues
 
