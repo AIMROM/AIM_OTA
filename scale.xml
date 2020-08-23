@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
     <RomName>AIMROM</RomName>
-    <VersionName>AIM-System-V2.5-20200822-OFFICIAL-scale-FINAL</VersionName>
-    <VersionNumber type="integer">20200822</VersionNumber>
-    <DirectUrl><![CDATA[https://downloads.sourceforge.net/project/aimroms/scale/AIM-System-V2.5-20200822-OFFICIAL-scale-FINAL.zip]]></DirectUrl>
+    <VersionName>AIM-System-V2.5-20200823-OFFICIAL-scale-FINAL</VersionName>
+    <VersionNumber type="integer">20200823</VersionNumber>
+    <DirectUrl><![CDATA[https://downloads.sourceforge.net/project/aimroms/scale/AIM-System-V2.5-20200823-OFFICIAL-scale-FINAL.zip]]></DirectUrl>
     <HttpUrl><![CDATA[https://sourceforge.net/projects/aimroms/files/scale/]]></HttpUrl>
     <Android>7.1.2</Android>
-    <CheckMD5>f4182707ca6152e510d6cb10b2a5d8e3</CheckMD5>
-    <FileSize type="integer">414190318</FileSize>
+    <CheckMD5>582ba8363f422943dfcf624078d1d641</CheckMD5>
+    <FileSize type="integer">414189516</FileSize>
     <Developer><![CDATA[Albert I (krasCGQ)]]></Developer>
     <WebsiteURL><![CDATA[]]></WebsiteURL>
     <DonateURL><![CDATA[https://paypal.me/AIMroms]]></DonateURL>
     <Changelog><![CDATA[### Let's AIM-ify
 
-* Merged August 2020 ASB in ROM
-* ROM zip is now signed
+* Add missing ROM patch for ASB-2020-08-05
 
 ### Currently known issues
 

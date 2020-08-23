@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
     <RomName>AIMROM</RomName>
-    <VersionName>AIM-System-V2.5-20200822-OFFICIAL-ja3gxx-FINAL</VersionName>
-    <VersionNumber type="integer">20200822</VersionNumber>
-    <DirectUrl><![CDATA[https://downloads.sourceforge.net/project/aimroms/ja3gxx/AIM-System-V2.5-20200822-OFFICIAL-ja3gxx-FINAL.zip]]></DirectUrl>
+    <VersionName>AIM-System-V2.5-20200823-OFFICIAL-ja3gxx-FINAL</VersionName>
+    <VersionNumber type="integer">20200823</VersionNumber>
+    <DirectUrl><![CDATA[https://downloads.sourceforge.net/project/aimroms/ja3gxx/AIM-System-V2.5-20200823-OFFICIAL-ja3gxx-FINAL.zip]]></DirectUrl>
     <HttpUrl><![CDATA[https://sourceforge.net/projects/aimroms/files/ja3gxx/]]></HttpUrl>
     <Android>7.1.2</Android>
-    <CheckMD5>54a7d598fef583a51a9dec41c59b62d2</CheckMD5>
-    <FileSize type="integer">342790443</FileSize>
+    <CheckMD5>d3fa1c8ee6e7c5315c8486733a95478e</CheckMD5>
+    <FileSize type="integer">342792222</FileSize>
     <Developer><![CDATA[Albert I (krasCGQ)]]></Developer>
     <WebsiteURL><![CDATA[]]></WebsiteURL>
     <DonateURL><![CDATA[https://paypal.me/AIMroms]]></DonateURL>
     <Changelog><![CDATA[### Let's AIM-ify
+
+* Add missing ROM patch for ASB-2020-08-05
 
 ### Disclaimer
 
