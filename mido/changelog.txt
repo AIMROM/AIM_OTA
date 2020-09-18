@@ -2,6 +2,15 @@ Open-GApps users: Use nano variant or lower. Higher variants (currently micro on
 
 4 May 2020 and newer builds are using 4.9 kernel. Clean flash and a compatible recovery build required!
 
+18 September 2020:
+- AIM source sync:
+  - Merged ASB-2020-09-05
+  - Merged LineageOS changes
+- MoeSyndrome Kernel (Vanilla) updated to 4.9.236~ms1 at gcc4096937e04:
+  - Merged Linux 4.9.236
+  - Merged CAF LA.UM.8.6.2.r1-08400-89xx.0
+  - WireGuard kernel module updated to v1.0.20200908
+
 9 August 2020:
 - AIM source sync:
   - Merged ASB-2020-08-05
@@ -35,18 +44,6 @@ Open-GApps users: Use nano variant or lower. Higher variants (currently micro on
   - Fixed panic with BFQ tunables by not exposing the (shouldn't be editable) weight values
   - Silenced certain dmesg logspam
   - Don't use SCHED_FIFO for eMMC
-
-11 June 2020:
-- AIM source sync:
-  - Merged ASB-2020-06-05
-  - Merged LineageOS changes
-  - Updated Lottie to v3.4.1
-- Switched to Redmi 8 (olive) thermal blobs
-- MoeSyndrome Kernel (Vanilla) updated to revision gbf700ddf2b23:
-  - Compiled with Snapdragon LLVM 8.0: might be faster and optimized, might be not
-  - Merged Linux 4.9.226
-  - WireGuard kernel module v1.0.20200520 built-in
-  - Disabled software PAN emulation
 
 = Remaining issues =
 - IR blaster doesn't work
