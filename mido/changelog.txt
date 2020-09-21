@@ -1,4 +1,4 @@
-Open-GApps users: Use nano variant or lower. Higher variants (currently micro only) compatibility aren't guaranteed.
+Open-GApps users: Use nano variant or lower. Higher variants compatibility aren't guaranteed.
 
 4 May 2020 and newer builds are using 4.9 kernel. Clean flash and a compatible recovery build required!
 
