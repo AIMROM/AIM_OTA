@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
     <RomName>AIMROM</RomName>
-    <VersionName>AIM-System-V2.5-20200823-OFFICIAL-scale-FINAL</VersionName>
-    <VersionNumber type="integer">20200823</VersionNumber>
-    <DirectUrl><![CDATA[https://downloads.sourceforge.net/project/aimroms/scale/AIM-System-V2.5-20200823-OFFICIAL-scale-FINAL.zip]]></DirectUrl>
+    <VersionName>AIM-System-V2.5-20201118-OFFICIAL-scale-FINAL</VersionName>
+    <VersionNumber type="integer">20201118</VersionNumber>
+    <DirectUrl><![CDATA[https://downloads.sourceforge.net/project/aimroms/scale/AIM-System-V2.5-20201118-OFFICIAL-scale-FINAL.zip]]></DirectUrl>
     <HttpUrl><![CDATA[https://sourceforge.net/projects/aimroms/files/scale/]]></HttpUrl>
     <Android>7.1.2</Android>
-    <CheckMD5>582ba8363f422943dfcf624078d1d641</CheckMD5>
-    <FileSize type="integer">414189516</FileSize>
+    <CheckMD5>e74d6f431f4d36ee68dc52ae6cb00cbf</CheckMD5>
+    <FileSize type="integer">416104929</FileSize>
     <Developer><![CDATA[Albert I (krasCGQ)]]></Developer>
     <WebsiteURL><![CDATA[]]></WebsiteURL>
-    <DonateURL><![CDATA[https://paypal.me/AIMroms]]></DonateURL>
+    <DonateURL><![CDATA[https://paypal.me/krasCGQ]]></DonateURL>
     <Changelog><![CDATA[### Let's AIM-ify
 
-* Add missing ROM patch for ASB-2020-08-05
+* Updated to October 2020 security patch
 
 ### Currently known issues
 
 * Despite having stock bluetooth blobs, bluetooth MAC will be randomized every boot (failed attempt to decrypt?).
-* WiFi MAC address decryption with libwcnss_qmi seldom to work.
 
 ---
 
